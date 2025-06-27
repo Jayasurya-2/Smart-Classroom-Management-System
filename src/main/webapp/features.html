@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - JAAS Instituite of Technology</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Inline CSS for Features Page -->
+    <style>
+        body {
+            font-family: "Space Grotesk", sans-serif;
+            background-color: #f0faff;
+            color: #333;
+        }
+        .features-header {
+            background-color: #4070f4;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 40px;
+        }
+        .features-header h1 {
+            font-weight: 700;
+            font-size: 2.5rem;
+        }
+        .features-header p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .features-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .feature-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        .feature-card h2 {
+            color: #4070f4;
+            font-weight: 600;
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+        }
+        .feature-card p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+        }
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 15px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4070f4;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #3050d0;
+            color: #fff;
+        }
+        .back-to-home {
+            display: block;
+            text-align: center;
+            margin: 40px 0;
+            color: #4070f4;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-to-home:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header / Navbar (Same as index.jsp) -->
+    <header class="d-flex flex-wrap align-items-center justify-content-between py-3 mb-4 border-bottom">
+        <div class="col-md-3 mb-2 mb-md-0">
+            <a href="index.jsp" class="d-inline-flex link-body-emphasis text-decoration-none">
+                <span class="fs-4 fw-bold">JAAS Instituite</span>
+            </a>
+        </div>
+  
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="index.jsp" class="nav-link px-2 link-secondary">Home</a></li>
+            <li><a href="features.html" class="nav-link px-2 active">Features</a></li>
+            <li><a href="faqs.html" class="nav-link px-2">FAQs</a></li>
+            <li><a href="about.html" class="nav-link px-2">About</a></li>
+        </ul>
+  
+        <div class="col-md-3 text-end" id="userSection">
+            <button type="button" id="loginBtn" class="btn btn-outline-primary me-2" onclick="window.location.href='login.html';">Login</button>
+        </div>
+    </header>
+
+    <!-- Features Header -->
+    <div class="features-header">
+        <h1>Our Features</h1>
+        <p>Discover what makes JAAS Instituite of Technology the ultimate platform for learning and growth</p>
+    </div>
+
+    <!-- Features Content -->
+    <div class="features-container">
+        <!-- Feature 1: Comprehensive Courses -->
+        <div class="feature-card">
+            <img src="asserts/Courses-Icon.png" alt="Courses Icon" class="feature-icon">
+            <h2>Comprehensive Courses</h2>
+            <p>
+                Explore a wide range of courses in programming, web development, data science, and more. Designed by industry experts, our curriculum caters to beginners and advanced learners alike, ensuring you gain practical, job-ready skills.
+            </p>
+            <a href="login.jsp" class="cta-button">Explore Courses</a>
+        </div>
+
+        <!-- Feature 2: Live Classroom Sessions -->
+        <div class="feature-card">
+            <img src="asserts/Live-Icon.png" alt="Live Icon" class="feature-icon">
+            <h2>Live Classroom Sessions</h2>
+            <p>
+                Engage with expert faculty in real-time through our interactive live classroom sessions. Ask questions, participate in discussions, and access recordings if you miss a class—all designed to enhance your learning experience.
+            </p>
+            <a href="#" class="cta-button">Join a Session</a>
+        </div>
+
+        <!-- Feature 3: Doubt Resolution Support -->
+        <div class="feature-card">
+            <img src="asserts/Doubt-Icon.png" alt="Doubt Icon" class="feature-icon">
+            <h2>Doubt Resolution Support</h2>
+            <p>
+                Never get stuck with our "Connect for Doubts" feature. Access a chatbot for instant answers or connect with faculty for personalized assistance, ensuring your queries are resolved quickly and effectively.
+            </p>
+            <a href="login.jsp" class="cta-button">Get Help Now</a>
+        </div>
+
+        <!-- Feature 4: Student Progress Tracking -->
+        <div class="feature-card">
+            <img src="asserts/Report-Icon.png" alt="Report Icon" class="feature-icon">
+            <h2>Student Progress Tracking</h2>
+            <p>
+                Monitor your learning journey with detailed student reports. Track course completion, quiz performance, and overall progress to stay motivated and achieve your educational goals.
+            </p>
+            <a href="#" class="cta-button">View Reports</a>
+        </div>
+
+        <!-- Feature 5: Community & Collaboration -->
+        <div class="feature-card">
+            <img src="asserts/Community-Icon.png" alt="Community Icon" class="feature-icon">
+            <h2>Community & Collaboration</h2>
+            <p>
+                Join dynamic clubs and online meetups to collaborate with peers, participate in hackathons, and build a network of like-minded learners and innovators.
+            </p>
+            <a href="#" class="cta-button">Join the Community</a>
+        </div>
+
+        <!-- Back to Home Link -->
+        <a href="index.jsp" class="back-to-home">Back to Home</a>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
