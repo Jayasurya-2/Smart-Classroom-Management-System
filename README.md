@@ -99,15 +99,15 @@ git clone https://github.com/Jayasurya-2/Smart-Classroom-Management-System.git
 ## 📸 Screenshots
 
 - 👨‍🎓 Student Dashboard  
-  https://i.postimg.cc/LX7kBBM9/SIH-1625-sc-1.png  
-  https://i.postimg.cc/ry0NybSK/SIH-1625-sc-2.png
+  ![App Screenshot](https://i.postimg.cc/LX7kBBM9/SIH-1625-sc-1.png  )
+  ![App Screenshot](https://i.postimg.cc/ry0NybSK/SIH-1625-sc-2.png)
 
 - 👨‍🏫 Faculty Dashboard  
-  https://i.postimg.cc/G29JygVg/SIH-1625-sc-3.png  
-  https://i.postimg.cc/6qvrH29d/SIH-1625-sc-4.png
+  ![App Screenshot](https://i.postimg.cc/G29JygVg/SIH-1625-sc-3.png  )
+  ![App Screenshot](https://i.postimg.cc/6qvrH29d/SIH-1625-sc-4.png)
 
 - 🛠 Admin Dashboard  
-  https://i.postimg.cc/fWfqJ8X4/SIH-1625-sc-5.png
+  ![App Screenshot](https://i.postimg.cc/fWfqJ8X4/SIH-1625-sc-5.png)
 
 ## 📂 Project Structure
 
